@@ -109,5 +109,15 @@ public class MyStepdefs {
         mainContent.selectDateOfBirth();
     }
 
+    @And("I upload a CV")
+    public void iUploadACV() {
+        mainContent.uploadCV();
+    }
 
+    @And("I rate my experience")
+    public void iRateMyExperience() {
+//        mainContent.sliderExists();
+//        Assertions.assertTrue(mainContent.sliderExists());
+        mainContent.selectRating();
+    }
 }

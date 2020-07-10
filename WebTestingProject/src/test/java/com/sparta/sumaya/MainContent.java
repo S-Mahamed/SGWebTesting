@@ -98,5 +98,28 @@ public class MainContent {
     public void selectDateOfBirth(){
         webDriver.findElement(By.xpath("/html/body/div/form/div[4]/div/input")).sendKeys("12/01/1990");
     }
+    public void uploadCV(){
+        webDriver.findElement(By.xpath("/html/body/div/form/div[18]/div/input")).sendKeys("C:\\Users\\Lenovo\\Downloads\\SampleProfile.docx");
+    }
+    public boolean sliderExists(){
+//        webDriver.switchTo().frame(0); //need to switch to this frame before clicking the slider
+//        WebElement slider = webDriver.findElement(By.id("experienceSlider"));
+//        Actions move = new Actions(webDriver);
+//        Action action = move.dragAndDropBy(slider,30,0).build();
+//        action.perform();
+        boolean slider = webDriver.findElement(By.id("experienceSlider")).isDisplayed();
+        return slider;
+    }
+    public void selectRating(){
 
+        WebElement moveSlider = webDriver.findElement(By.id("value_for_slider"));
+        Actions actions= new Actions(webDriver);
+//        webDriver.manage().timeouts().implicitlyWait(15 , TimeUnit.SECONDS);
+        actions.dragAndDropBy(moveSlider,137,1879).build().perform();
+        moveSlider.click();
+    }
+    public SignInPage goToSignIn(){
+        webDriver.findElement(signIn).click();
+        return new SignInPage(webDriver);
+    }
 }
