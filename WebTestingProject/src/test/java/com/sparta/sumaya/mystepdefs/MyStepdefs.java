@@ -12,7 +12,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class MyStepdefs {
     WebDriver webDriver = new ChromeDriver();
     MainContent mainContent = new MainContent(webDriver);
-    //FirstNameBar firstNameBar;
 
     @Given("I am on the main contents page")
     public void iAmOnTheMainContentsPage() {
@@ -34,9 +33,24 @@ public class MyStepdefs {
         Assertions.assertTrue(mainContent.typeAge());
     }
 
+    @And("I enter my date of Birth")
+    public void iEnterMyDateOfBirth() {
+        mainContent.selectDateOfBirth();
+    }
+
+    @And("I enter my gender")
+    public void iEnterMyGender() {
+        mainContent.enterGender();
+    }
+
     @And("I enter my degree")
     public void iEnterMyDegree() {
         mainContent.typeDegree();
+    }
+
+    @And("I choose a University")
+    public void iChooseAUniversity() {
+        mainContent.chooseUni();
     }
 
     @And("I enter my first Address")
@@ -52,6 +66,11 @@ public class MyStepdefs {
     @And("I enter my City")
     public void iEnterMyCity() {
         mainContent.typeCity();
+    }
+
+    @And("I choose a County")
+    public void iChooseACounty() {
+        mainContent.chooseCounty();
     }
 
     @And("I enter my Postcode")
@@ -74,39 +93,10 @@ public class MyStepdefs {
         mainContent.typePhoneNumber();
     }
 
-    @And("I agree to the T&C")
-    public void iAgreeToTheTC() {
-        mainContent.clickAgreeToTerms();
-    }
-
-    @And("I enter my gender")
-    public void iEnterMyGender() {
-        mainContent.enterGender();
-    }
-
-    @And("I choose a Stream")
-    public void iChooseAStream() {
-        mainContent.enterStream();
-    }
-
-    @And("I choose a University")
-    public void iChooseAUniversity() {
-        mainContent.chooseUni();
-    }
-
-    @And("I choose a County")
-    public void iChooseACounty() {
-        mainContent.chooseCounty();
-    }
 
     @And("I provide a LinkedIn URL")
     public void iProvideALinkedInURL() {
         mainContent.typeLinkedInURL();
-    }
-
-    @And("I enter my date of Birth")
-    public void iEnterMyDateOfBirth() {
-        mainContent.selectDateOfBirth();
     }
 
     @And("I upload a CV")
@@ -114,10 +104,17 @@ public class MyStepdefs {
         mainContent.uploadCV();
     }
 
+    @And("I choose a Stream")
+    public void iChooseAStream() {
+        mainContent.enterStream();
+    }
+    @And("I agree to the T&C")
+    public void iAgreeToTheTC() {
+        mainContent.clickAgreeToTerms();
+    }
+
     @And("I rate my experience")
     public void iRateMyExperience() {
-//        mainContent.sliderExists();
-//        Assertions.assertTrue(mainContent.sliderExists());
-        mainContent.selectRating();
+        Assertions.assertTrue(mainContent.sliderExists());
     }
 }

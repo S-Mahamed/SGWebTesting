@@ -22,5 +22,3 @@ Feature:Filling in the form
       And I choose a Stream
       And I agree to the T&C
       And I rate my experience
-#      Then I click on the Sign in button
-#
