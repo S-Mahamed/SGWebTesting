@@ -1,0 +1,282 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-07-09T21:39:30.560Z",
+        "line": 3,
+        "name": "Filling in the Reg.form correctly",
+        "description": "",
+        "id": "filling-in-the-form;filling-in-the-reg.form-correctly",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5456126800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on the main contents page",
+            "match": {
+              "location": "com.sparta.sumaya.mystepdefs.MyStepdefs.iAmOnTheMainContentsPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 205150900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I type the on first name bar",
+            "match": {
+              "location": "com.sparta.sumaya.mystepdefs.MyStepdefs.iClickTheOnFirstNameBar()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 165802000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I type the on last name bar",
+            "match": {
+              "location": "com.sparta.sumaya.mystepdefs.MyStepdefs.iTypeTheOnLastNameBar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 33443400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I input my age",
+            "match": {
+              "location": "com.sparta.sumaya.mystepdefs.MyStepdefs.iInputMyAge()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 115748000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter my date of Birth",
+            "match": {
+              "location": "com.sparta.sumaya.mystepdefs.MyStepdefs.iEnterMyDateOfBirth()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 209721100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter my gender",
+            "match": {
+              "location": "com.sparta.sumaya.mystepdefs.MyStepdefs.iEnterMyGender()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 201179900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I enter my degree",
+            "match": {
+              "location": "com.sparta.sumaya.mystepdefs.MyStepdefs.iEnterMyDegree()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 173327600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I choose a University",
+            "match": {
+              "location": "com.sparta.sumaya.mystepdefs.MyStepdefs.iChooseAUniversity()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 139373400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I enter my first Address",
+            "match": {
+              "location": "com.sparta.sumaya.mystepdefs.MyStepdefs.iEnterMyFirstAddress()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 160116300,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I enter my second Address",
+            "match": {
+              "location": "com.sparta.sumaya.mystepdefs.MyStepdefs.iEnterMySecondAdress()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 120130600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I enter my City",
+            "match": {
+              "location": "com.sparta.sumaya.mystepdefs.MyStepdefs.iEnterMyCity()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 104753300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I choose a County",
+            "match": {
+              "location": "com.sparta.sumaya.mystepdefs.MyStepdefs.iChooseACounty()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 105169400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I enter my Postcode",
+            "match": {
+              "location": "com.sparta.sumaya.mystepdefs.MyStepdefs.iEnterMyPostcode()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 248566200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I enter my email address",
+            "match": {
+              "location": "com.sparta.sumaya.mystepdefs.MyStepdefs.iEnterMyEmailAddress()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 228494800,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I enter my Skills",
+            "match": {
+              "location": "com.sparta.sumaya.mystepdefs.MyStepdefs.iEnterMySkills()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 126020500,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I enter my phone number",
+            "match": {
+              "location": "com.sparta.sumaya.mystepdefs.MyStepdefs.iEnterMyPhoneNumber()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 274932200,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I provide a LinkedIn URL",
+            "match": {
+              "location": "com.sparta.sumaya.mystepdefs.MyStepdefs.iProvideALinkedInURL()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 48475600,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I upload a CV",
+            "match": {
+              "location": "com.sparta.sumaya.mystepdefs.MyStepdefs.iUploadACV()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 149333000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I choose a Stream",
+            "match": {
+              "location": "com.sparta.sumaya.mystepdefs.MyStepdefs.iChooseAStream()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 97645300,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I agree to the T\u0026C",
+            "match": {
+              "location": "com.sparta.sumaya.mystepdefs.MyStepdefs.iAgreeToTheTC()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: move target out of bounds\n  (Session info: chrome\u003d83.0.4103.116)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-MP2S2TL1\u0027, ip: \u0027192.168.0.5\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002713.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\\Users\\Lenovo\\AppData\\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:60697}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: cd2bf0748168bebe98465c68a9b16c1c\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:618)\r\n\tat org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:639)\r\n\tat com.sparta.sumaya.MainContent.selectRating(MainContent.java:117)\r\n\tat com.sparta.sumaya.mystepdefs.MyStepdefs.iRateMyExperience(MyStepdefs.java:121)\r\n\tat ✽.I rate my experience(file:///C:/Users/Lenovo/Documents/SG/WebTestingProject/src/test/resources/RegForm.feature:24)\r\n",
+              "duration": 187572800,
+              "status": "failed"
+            },
+            "line": 24,
+            "name": "I rate my experience",
+            "match": {
+              "location": "com.sparta.sumaya.mystepdefs.MyStepdefs.iRateMyExperience()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FirstName"
+          }
+        ]
+      }
+    ],
+    "name": "Filling in the form",
+    "description": "",
+    "id": "filling-in-the-form",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/RegForm.feature",
+    "tags": []
+  }
+]
